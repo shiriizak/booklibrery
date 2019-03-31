@@ -5,8 +5,12 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   template:`
-  <router-outlet></router-outlet>
+
   <app-nav-bar></app-nav-bar>
+  <br>
+  <router-outlet></router-outlet>
+
+
   `,
   styleUrls: ['./app.component.scss']
 })

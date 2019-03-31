@@ -12,7 +12,7 @@ import { NavoutComponent } from './navout/navout.component';
 const appRoutes: Routes = [
   { path: 'homepage', component: HomepageComponent },
   { path: 'library',      component: NavoutComponent },
-  { path: 'editbook/:book',      component: BookEditComponent },
+  { path: 'editbook',      component: BookEditComponent },
 
 
 ];
