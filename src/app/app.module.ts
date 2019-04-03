@@ -8,6 +8,9 @@ import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NavoutComponent } from './navout/navout.component';
+import { SherservicesModule } from './sherservices/sherservices.module';
+
+
 
 const appRoutes: Routes = [
   { path: 'homepage', component: HomepageComponent },
@@ -29,6 +32,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
+    SherservicesModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
